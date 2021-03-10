@@ -1,0 +1,56 @@
+---
+name: medico
+description: A new Flutter project.
+publish_to: none
+version: 1.0.0+1
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_size_text: ^2.1.0
+  boxicons_flutter: null
+  dio: ^4.0.0-beta5
+  extended_image: ^3.0.0
+  google_nav_bar: ^4.0.2
+  hive: ^2.0.0
+  hive_flutter: ^1.0.0
+  image_crop_widget: ^0.0.6
+  image_picker: ^0.7.2
+  image_picker_for_web: null
+  path_provider: ^2.0.1
+  provider: ^5.0.0
+  qr_code_scanner: ^0.3.5
+  shared_preferences: ^2.0.3
+  simple_ocr_plugin: ^0.1.1
+  # socket_io_client: ^0.9.12
+  url_launcher: ^6.0.2
+  vibration: ^1.7.3
+  whatsapp_unilink: ^1.0.0+1
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  build_runner: ^1.11.5
+  hive_generator: ^1.0.0
+  http_parser: ^4.0.0
+  import_sorter: ^4.4.1
+  logger: ^0.9.4
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: manrope
+      fonts:
+        - asset: assets/fonts/Manrope-Regular.ttf
+        - asset: assets/fonts/Manrope-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Manrope-Regular.ttf
+          weight: 500
+        - asset: assets/fonts/Manrope-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Manrope-Bold.ttf
+          weight: 700
+    - family: MedicalIcons
+      fonts:
+        - asset: assets/fonts/MedicalIcons.ttf
+import_sorter:
+  comments: true
